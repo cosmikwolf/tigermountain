@@ -1,9 +1,7 @@
 export default function() {
 
-  this.get('/holdings', function(db){
-    return {
-      data: db.holdings
-    };
+  this.get('/holdings', (schema, request) => {
+    return schema.holdings.all();
   });
 
 

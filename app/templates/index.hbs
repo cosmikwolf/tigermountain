@@ -1,7 +1,16 @@
 <h1>Holdings</h1>
-{{#each model as |holding|}}
-  <p>{{holding.companyName}}</p>
-{{/each}}
 
+<div id="holding container">
+{{#each model as |holding|}}
+
+<p>--===-===-***-===-===--</p>
+<p>{{holding.companyname}}</p>
+<p>{{holding.ticker}}</p>
+<p>{{holding.shares}}</p>
+<p>{{holding.issueid}}</p>
+<p>--===-===-***-===-===--</p>
+
+{{/each}}
+</div>
 
 {{outlet}}
