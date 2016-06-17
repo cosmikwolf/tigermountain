@@ -3,7 +3,20 @@ export default function() {
   this.get('/holdings', (schema, request) => {
     return schema.holdings.all();
   });
+  this.get('/holdings/:id', (schema, request) => {
+    return schema.holdings.find(request.params.id);
+  });
 
+  this.get('/issues', (schema, request) => {
+    return schema.issues.all();
+  });
+  this.get('/issues/:id', (schema, request) => {
+    return schema.issues.find(request.params.id);
+  });
+
+  this.get('/owners', (schema, request) => {
+    return schema.owners.all();
+  });
 
   // These comments are here to help you get started. Feel free to delete them.
 

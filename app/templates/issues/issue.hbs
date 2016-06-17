@@ -1,0 +1,46 @@
+<h1>{{model.companyname}}</h1>
+<table>
+  <tr><td>ticker</td><td>{{model.ticker}}</td></tr>
+  <tr><td>issuetitle</td><td>{{model.issuetitle}}</td></tr>
+  <tr><td>price</td><td>{{model.price}}</td></tr>
+  <tr><td>sharesheld</td><td>{{model.sharesheld}}</td></tr>
+  <tr><td colspan=2><h3>Holdings</h3></td></tr>
+
+  {{#each model.holdings as |holding|}}
+  <tr><td>{{holding.companyname}}</td><td>{{holding.shares}}</td></tr>
+  {{/each}}
+<!--
+
+  <tr><td>companyid</td><td>{{model.companyid}}</td></tr>
+  <tr><td>querydate</td><td>{{model.querydate}}</td></tr>
+  <tr><td>companyname</td><td>{{model.companyname}}</td></tr>
+  <tr><td>isprimary</td><td>{{model.isprimary}}</td></tr>
+  <tr><td>activeonly</td><td>{{model.activeonly}}</td></tr>
+  <tr><td>exchangeid</td><td>{{model.exchangeid}}</td></tr>
+  <tr><td>exchange</td><td>{{model.exchange}}</td></tr>
+  <tr><td>cik</td><td>{{model.cik}}</td></tr>
+  <tr><td>sic</td><td>{{model.sic}}</td></tr>
+  <tr><td>sicdescription</td><td>{{model.sicdescription}}</td></tr>
+  <tr><td>industryid</td><td>{{model.industryid}}</td></tr>
+  <tr><td>industry</td><td>{{model.industry}}</td></tr>
+  <tr><td>sectorid</td><td>{{model.sectorid}}</td></tr>
+  <tr><td>sector</td><td>{{model.sector}}</td></tr>
+  <tr><td>street1</td><td>{{model.street1}}</td></tr>
+  <tr><td>street2</td><td>{{model.street2}}</td></tr>
+  <tr><td>city</td><td>{{model.city}}</td></tr>
+  <tr><td>state</td><td>{{model.state}}</td></tr>
+  <tr><td>zip</td><td>{{model.zip}}</td></tr>
+  <tr><td>country</td><td>{{model.country}}</td></tr>
+  <tr><td>phonecountrycode</td><td>{{model.phonecountrycode}}</td></tr>
+  <tr><td>phoneareacode</td><td>{{model.phoneareacode}}</td></tr>
+  <tr><td>phonenumber</td><td>{{model.phonenumber}}</td></tr>
+  <tr><td>sharesout</td><td>{{model.sharesout}}</td></tr>
+  <tr><td>sharesoutdate</td><td>{{model.sharesoutdate}}</td></tr>
+  <tr><td>pricedate</td><td>{{model.pricedate}}</td></tr>
+  <tr><td>numholders</td><td>{{model.numholders}}</td></tr>
+  <tr><td>numbernewholders</td><td>{{model.numbernewholders}}</td></tr>
+  <tr><td>numbuyers</td><td>{{model.numbuyers}}</td></tr>
+  <tr><td>numsellers</td><td>{{model.numsellers}}</td></tr>
+  <tr><td>numbersellouts</td><td>{{model.numbersellouts}}</td></tr>
+-->
+</table>

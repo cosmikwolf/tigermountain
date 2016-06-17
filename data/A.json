@@ -1,0 +1,1017 @@
+{
+  "result": {
+    "totalrows": 562,
+    "rows": [
+      {
+        "rownum": 1,
+        "values": [
+          {
+            "field": "querydate",
+            "value": "6/16/2016 10:46 PM"
+          },
+          {
+            "field": "issueid",
+            "value": 469146
+          },
+          {
+            "field": "ticker",
+            "value": "A"
+          },
+          {
+            "field": "companyname",
+            "value": "AGILENT TECHNOLOGIES INC"
+          },
+          {
+            "field": "issuetitle",
+            "value": "COM"
+          },
+          {
+            "field": "filerid",
+            "value": 2145
+          },
+          {
+            "field": "cik",
+            "value": "0000080255"
+          },
+          {
+            "field": "currentreportdate",
+            "value": "3/31/2016 12:00 AM"
+          },
+          {
+            "field": "priorreportdate",
+            "value": "12/31/2015 12:00 AM"
+          },
+          {
+            "field": "ownername",
+            "value": "PRICE T ROWE ASSOCIATES INC /MD/"
+          },
+          {
+            "field": "street1",
+            "value": "100 EAST PRATT ST"
+          },
+          {
+            "field": "street2",
+            "value": null
+          },
+          {
+            "field": "street3",
+            "value": null
+          },
+          {
+            "field": "city",
+            "value": "BALTIMORE"
+          },
+          {
+            "field": "state",
+            "value": "MD"
+          },
+          {
+            "field": "zip",
+            "value": "21202"
+          },
+          {
+            "field": "phone",
+            "value": "(410)345-6603"
+          },
+          {
+            "field": "sharesheld",
+            "value": 32768221
+          },
+          {
+            "field": "sharesheldchange",
+            "value": 1056605
+          },
+          {
+            "field": "sharesheldpercentchange",
+            "value": 0.033319178688339314
+          },
+          {
+            "field": "marketvalue",
+            "value": 1472603852
+          },
+          {
+            "field": "marketvaluechange",
+            "value": 47483828.7
+          },
+          {
+            "field": "portfoliopercent",
+            "value": 0.003099994969977655
+          },
+          {
+            "field": "sharesoutpercent",
+            "value": 0.10066370690494673
+          }
+        ]
+      },
+      {
+        "rownum": 2,
+        "values": [
+          {
+            "field": "querydate",
+            "value": "6/16/2016 10:46 PM"
+          },
+          {
+            "field": "issueid",
+            "value": 469146
+          },
+          {
+            "field": "ticker",
+            "value": "A"
+          },
+          {
+            "field": "companyname",
+            "value": "AGILENT TECHNOLOGIES INC"
+          },
+          {
+            "field": "issuetitle",
+            "value": "COM"
+          },
+          {
+            "field": "filerid",
+            "value": 12407
+          },
+          {
+            "field": "cik",
+            "value": "0000315066"
+          },
+          {
+            "field": "currentreportdate",
+            "value": "3/31/2016 12:00 AM"
+          },
+          {
+            "field": "priorreportdate",
+            "value": "12/31/2015 12:00 AM"
+          },
+          {
+            "field": "ownername",
+            "value": "FMR LLC"
+          },
+          {
+            "field": "street1",
+            "value": "245 SUMMER STREET"
+          },
+          {
+            "field": "street2",
+            "value": null
+          },
+          {
+            "field": "street3",
+            "value": null
+          },
+          {
+            "field": "city",
+            "value": "BOSTON"
+          },
+          {
+            "field": "state",
+            "value": "MA"
+          },
+          {
+            "field": "zip",
+            "value": "02210"
+          },
+          {
+            "field": "phone",
+            "value": "6175706339"
+          },
+          {
+            "field": "sharesheld",
+            "value": 21093371
+          },
+          {
+            "field": "sharesheldchange",
+            "value": 55881
+          },
+          {
+            "field": "sharesheldpercentchange",
+            "value": 0.002656257947122019
+          },
+          {
+            "field": "marketvalue",
+            "value": 947936093
+          },
+          {
+            "field": "marketvaluechange",
+            "value": 2511292.14
+          },
+          {
+            "field": "portfoliopercent",
+            "value": 0.001305453730075177
+          },
+          {
+            "field": "sharesoutpercent",
+            "value": 0.06479866319203911
+          }
+        ]
+      },
+      {
+        "rownum": 3,
+        "values": [
+          {
+            "field": "querydate",
+            "value": "6/16/2016 10:46 PM"
+          },
+          {
+            "field": "issueid",
+            "value": 469146
+          },
+          {
+            "field": "ticker",
+            "value": "A"
+          },
+          {
+            "field": "companyname",
+            "value": "AGILENT TECHNOLOGIES INC"
+          },
+          {
+            "field": "issuetitle",
+            "value": "COM"
+          },
+          {
+            "field": "filerid",
+            "value": 61322
+          },
+          {
+            "field": "cik",
+            "value": "0000102909"
+          },
+          {
+            "field": "currentreportdate",
+            "value": "3/31/2016 12:00 AM"
+          },
+          {
+            "field": "priorreportdate",
+            "value": "12/31/2015 12:00 AM"
+          },
+          {
+            "field": "ownername",
+            "value": "VANGUARD GROUP INC"
+          },
+          {
+            "field": "street1",
+            "value": "PO BOX 2600"
+          },
+          {
+            "field": "street2",
+            "value": "V26"
+          },
+          {
+            "field": "street3",
+            "value": null
+          },
+          {
+            "field": "city",
+            "value": "VALLEY FORGE"
+          },
+          {
+            "field": "state",
+            "value": "PA"
+          },
+          {
+            "field": "zip",
+            "value": "19482-2600"
+          },
+          {
+            "field": "phone",
+            "value": "6106691000"
+          },
+          {
+            "field": "sharesheld",
+            "value": 20169658
+          },
+          {
+            "field": "sharesheldchange",
+            "value": 549594
+          },
+          {
+            "field": "sharesheldpercentchange",
+            "value": 0.02801183523152626
+          },
+          {
+            "field": "marketvalue",
+            "value": 906424431
+          },
+          {
+            "field": "marketvaluechange",
+            "value": 24698754.36
+          },
+          {
+            "field": "portfoliopercent",
+            "value": 0.000583422962321015
+          },
+          {
+            "field": "sharesoutpercent",
+            "value": 0.06196102441096861
+          }
+        ]
+      },
+      {
+        "rownum": 4,
+        "values": [
+          {
+            "field": "querydate",
+            "value": "6/16/2016 10:46 PM"
+          },
+          {
+            "field": "issueid",
+            "value": 469146
+          },
+          {
+            "field": "ticker",
+            "value": "A"
+          },
+          {
+            "field": "companyname",
+            "value": "AGILENT TECHNOLOGIES INC"
+          },
+          {
+            "field": "issuetitle",
+            "value": "COM"
+          },
+          {
+            "field": "filerid",
+            "value": 6697
+          },
+          {
+            "field": "cik",
+            "value": "0000093751"
+          },
+          {
+            "field": "currentreportdate",
+            "value": "3/31/2016 12:00 AM"
+          },
+          {
+            "field": "priorreportdate",
+            "value": "12/31/2015 12:00 AM"
+          },
+          {
+            "field": "ownername",
+            "value": "STATE STREET CORP"
+          },
+          {
+            "field": "street1",
+            "value": "ONE LINCOLN STREET"
+          },
+          {
+            "field": "street2",
+            "value": null
+          },
+          {
+            "field": "street3",
+            "value": null
+          },
+          {
+            "field": "city",
+            "value": "BOSTON"
+          },
+          {
+            "field": "state",
+            "value": "MA"
+          },
+          {
+            "field": "zip",
+            "value": "02111"
+          },
+          {
+            "field": "phone",
+            "value": "617 786-3000"
+          },
+          {
+            "field": "sharesheld",
+            "value": 13109365
+          },
+          {
+            "field": "sharesheldchange",
+            "value": -327547
+          },
+          {
+            "field": "sharesheldpercentchange",
+            "value": -0.02437665737484922
+          },
+          {
+            "field": "marketvalue",
+            "value": 589134863
+          },
+          {
+            "field": "marketvaluechange",
+            "value": -14719962.18
+          },
+          {
+            "field": "portfoliopercent",
+            "value": 0.000632844032730572
+          },
+          {
+            "field": "sharesoutpercent",
+            "value": 0.04027186206019445
+          }
+        ]
+      },
+      {
+        "rownum": 5,
+        "values": [
+          {
+            "field": "querydate",
+            "value": "6/16/2016 10:46 PM"
+          },
+          {
+            "field": "issueid",
+            "value": 469146
+          },
+          {
+            "field": "ticker",
+            "value": "A"
+          },
+          {
+            "field": "companyname",
+            "value": "AGILENT TECHNOLOGIES INC"
+          },
+          {
+            "field": "issuetitle",
+            "value": "COM"
+          },
+          {
+            "field": "filerid",
+            "value": 736081
+          },
+          {
+            "field": "cik",
+            "value": "0001390777"
+          },
+          {
+            "field": "currentreportdate",
+            "value": "3/31/2016 12:00 AM"
+          },
+          {
+            "field": "priorreportdate",
+            "value": "12/31/2015 12:00 AM"
+          },
+          {
+            "field": "ownername",
+            "value": "BANK OF NEW YORK MELLON CORP"
+          },
+          {
+            "field": "street1",
+            "value": "225 LIBERTY STREET"
+          },
+          {
+            "field": "street2",
+            "value": null
+          },
+          {
+            "field": "street3",
+            "value": null
+          },
+          {
+            "field": "city",
+            "value": "NEW YORK"
+          },
+          {
+            "field": "state",
+            "value": "NY"
+          },
+          {
+            "field": "zip",
+            "value": "10286"
+          },
+          {
+            "field": "phone",
+            "value": "212-495-1784"
+          },
+          {
+            "field": "sharesheld",
+            "value": 9129602
+          },
+          {
+            "field": "sharesheldchange",
+            "value": 550980
+          },
+          {
+            "field": "sharesheldpercentchange",
+            "value": 0.06422709847805394
+          },
+          {
+            "field": "marketvalue",
+            "value": 410284314
+          },
+          {
+            "field": "marketvaluechange",
+            "value": 24761041.2
+          },
+          {
+            "field": "portfoliopercent",
+            "value": 0.001241281498089541
+          },
+          {
+            "field": "sharesoutpercent",
+            "value": 0.028046062674162736
+          }
+        ]
+      },
+      {
+        "rownum": 6,
+        "values": [
+          {
+            "field": "querydate",
+            "value": "6/16/2016 10:46 PM"
+          },
+          {
+            "field": "issueid",
+            "value": 469146
+          },
+          {
+            "field": "ticker",
+            "value": "A"
+          },
+          {
+            "field": "companyname",
+            "value": "AGILENT TECHNOLOGIES INC"
+          },
+          {
+            "field": "issuetitle",
+            "value": "COM"
+          },
+          {
+            "field": "filerid",
+            "value": 37652
+          },
+          {
+            "field": "cik",
+            "value": "0000913414"
+          },
+          {
+            "field": "currentreportdate",
+            "value": "3/31/2016 12:00 AM"
+          },
+          {
+            "field": "priorreportdate",
+            "value": "12/31/2015 12:00 AM"
+          },
+          {
+            "field": "ownername",
+            "value": "BLACKROCK INSTITUTIONAL TRUST COMPANY, N.A."
+          },
+          {
+            "field": "street1",
+            "value": "400 HOWARD STREET"
+          },
+          {
+            "field": "street2",
+            "value": null
+          },
+          {
+            "field": "street3",
+            "value": null
+          },
+          {
+            "field": "city",
+            "value": "SAN FRANCISCO"
+          },
+          {
+            "field": "state",
+            "value": "CA"
+          },
+          {
+            "field": "zip",
+            "value": "94105"
+          },
+          {
+            "field": "phone",
+            "value": "4155972639"
+          },
+          {
+            "field": "sharesheld",
+            "value": 8917030
+          },
+          {
+            "field": "sharesheldchange",
+            "value": 192431
+          },
+          {
+            "field": "sharesheldpercentchange",
+            "value": 0.02205614263761578
+          },
+          {
+            "field": "marketvalue",
+            "value": 400731328
+          },
+          {
+            "field": "marketvaluechange",
+            "value": 8647849.14
+          },
+          {
+            "field": "portfoliopercent",
+            "value": 0.000657560224992236
+          },
+          {
+            "field": "sharesoutpercent",
+            "value": 0.027393043228761706
+          }
+        ]
+      },
+      {
+        "rownum": 7,
+        "values": [
+          {
+            "field": "querydate",
+            "value": "6/16/2016 10:46 PM"
+          },
+          {
+            "field": "issueid",
+            "value": 469146
+          },
+          {
+            "field": "ticker",
+            "value": "A"
+          },
+          {
+            "field": "companyname",
+            "value": "AGILENT TECHNOLOGIES INC"
+          },
+          {
+            "field": "issuetitle",
+            "value": "COM"
+          },
+          {
+            "field": "filerid",
+            "value": 765109
+          },
+          {
+            "field": "cik",
+            "value": "0001421578"
+          },
+          {
+            "field": "currentreportdate",
+            "value": "3/31/2016 12:00 AM"
+          },
+          {
+            "field": "priorreportdate",
+            "value": "12/31/2015 12:00 AM"
+          },
+          {
+            "field": "ownername",
+            "value": "PUTNAM INVESTMENTS LLC"
+          },
+          {
+            "field": "street1",
+            "value": "ONE POST OFFICE SQUARE"
+          },
+          {
+            "field": "street2",
+            "value": null
+          },
+          {
+            "field": "street3",
+            "value": null
+          },
+          {
+            "field": "city",
+            "value": "BOSTON"
+          },
+          {
+            "field": "state",
+            "value": "MA"
+          },
+          {
+            "field": "zip",
+            "value": "02109"
+          },
+          {
+            "field": "phone",
+            "value": "(617) 760-0514"
+          },
+          {
+            "field": "sharesheld",
+            "value": 8901000
+          },
+          {
+            "field": "sharesheldchange",
+            "value": -2037348
+          },
+          {
+            "field": "sharesheldpercentchange",
+            "value": -0.18625737634238734
+          },
+          {
+            "field": "marketvalue",
+            "value": 400010940
+          },
+          {
+            "field": "marketvaluechange",
+            "value": -91558419.12
+          },
+          {
+            "field": "portfoliopercent",
+            "value": 0.009496917303590162
+          },
+          {
+            "field": "sharesoutpercent",
+            "value": 0.02734379919986901
+          }
+        ]
+      },
+      {
+        "rownum": 8,
+        "values": [
+          {
+            "field": "querydate",
+            "value": "6/16/2016 10:46 PM"
+          },
+          {
+            "field": "issueid",
+            "value": 469146
+          },
+          {
+            "field": "ticker",
+            "value": "A"
+          },
+          {
+            "field": "companyname",
+            "value": "AGILENT TECHNOLOGIES INC"
+          },
+          {
+            "field": "issuetitle",
+            "value": "COM"
+          },
+          {
+            "field": "filerid",
+            "value": 13234
+          },
+          {
+            "field": "cik",
+            "value": "0000315032"
+          },
+          {
+            "field": "currentreportdate",
+            "value": "3/31/2016 12:00 AM"
+          },
+          {
+            "field": "priorreportdate",
+            "value": "12/31/2015 12:00 AM"
+          },
+          {
+            "field": "ownername",
+            "value": "STATE FARM MUTUAL AUTOMOBILE INSURANCE CO"
+          },
+          {
+            "field": "street1",
+            "value": "ONE STATE FARM PLAZA"
+          },
+          {
+            "field": "street2",
+            "value": null
+          },
+          {
+            "field": "street3",
+            "value": null
+          },
+          {
+            "field": "city",
+            "value": "BLOOMINGTON"
+          },
+          {
+            "field": "state",
+            "value": "IL"
+          },
+          {
+            "field": "zip",
+            "value": "61710"
+          },
+          {
+            "field": "phone",
+            "value": "309-766-8411"
+          },
+          {
+            "field": "sharesheld",
+            "value": 6921645
+          },
+          {
+            "field": "sharesheldchange",
+            "value": 0
+          },
+          {
+            "field": "sharesheldpercentchange",
+            "value": 0
+          },
+          {
+            "field": "marketvalue",
+            "value": 311058726
+          },
+          {
+            "field": "marketvaluechange",
+            "value": 0
+          },
+          {
+            "field": "portfoliopercent",
+            "value": 0.00471666699528477
+          },
+          {
+            "field": "sharesoutpercent",
+            "value": 0.021263236828758268
+          }
+        ]
+      },
+      {
+        "rownum": 9,
+        "values": [
+          {
+            "field": "querydate",
+            "value": "6/16/2016 10:46 PM"
+          },
+          {
+            "field": "issueid",
+            "value": 469146
+          },
+          {
+            "field": "ticker",
+            "value": "A"
+          },
+          {
+            "field": "companyname",
+            "value": "AGILENT TECHNOLOGIES INC"
+          },
+          {
+            "field": "issuetitle",
+            "value": "COM"
+          },
+          {
+            "field": "filerid",
+            "value": 110937
+          },
+          {
+            "field": "cik",
+            "value": "0001006249"
+          },
+          {
+            "field": "currentreportdate",
+            "value": "3/31/2016 12:00 AM"
+          },
+          {
+            "field": "priorreportdate",
+            "value": "12/31/2015 12:00 AM"
+          },
+          {
+            "field": "ownername",
+            "value": "BLACKROCK FUND ADVISORS"
+          },
+          {
+            "field": "street1",
+            "value": "400 HOWARD STREET"
+          },
+          {
+            "field": "street2",
+            "value": null
+          },
+          {
+            "field": "street3",
+            "value": null
+          },
+          {
+            "field": "city",
+            "value": "SAN FRANCISCO"
+          },
+          {
+            "field": "state",
+            "value": "CA"
+          },
+          {
+            "field": "zip",
+            "value": "94105"
+          },
+          {
+            "field": "phone",
+            "value": "3027913048"
+          },
+          {
+            "field": "sharesheld",
+            "value": 5335228
+          },
+          {
+            "field": "sharesheldchange",
+            "value": -65649
+          },
+          {
+            "field": "sharesheldpercentchange",
+            "value": -0.012155248119888678
+          },
+          {
+            "field": "marketvalue",
+            "value": 239765146
+          },
+          {
+            "field": "marketvaluechange",
+            "value": -2950266.06
+          },
+          {
+            "field": "portfoliopercent",
+            "value": 0.000550333592126323
+          },
+          {
+            "field": "sharesoutpercent",
+            "value": 0.0163897767798583
+          }
+        ]
+      },
+      {
+        "rownum": 10,
+        "values": [
+          {
+            "field": "querydate",
+            "value": "6/16/2016 10:46 PM"
+          },
+          {
+            "field": "issueid",
+            "value": 469146
+          },
+          {
+            "field": "ticker",
+            "value": "A"
+          },
+          {
+            "field": "companyname",
+            "value": "AGILENT TECHNOLOGIES INC"
+          },
+          {
+            "field": "issuetitle",
+            "value": "COM"
+          },
+          {
+            "field": "filerid",
+            "value": 40504
+          },
+          {
+            "field": "cik",
+            "value": "0000763212"
+          },
+          {
+            "field": "currentreportdate",
+            "value": "3/31/2016 12:00 AM"
+          },
+          {
+            "field": "priorreportdate",
+            "value": "12/31/2015 12:00 AM"
+          },
+          {
+            "field": "ownername",
+            "value": "PRIMECAP MANAGEMENT CO/CA/"
+          },
+          {
+            "field": "street1",
+            "value": "225 SOUTH LAKE AVE STE 400"
+          },
+          {
+            "field": "street2",
+            "value": null
+          },
+          {
+            "field": "street3",
+            "value": null
+          },
+          {
+            "field": "city",
+            "value": "PASADENA"
+          },
+          {
+            "field": "state",
+            "value": "CA"
+          },
+          {
+            "field": "zip",
+            "value": "91101-3005"
+          },
+          {
+            "field": "phone",
+            "value": "8183049222"
+          },
+          {
+            "field": "sharesheld",
+            "value": 5172590
+          },
+          {
+            "field": "sharesheldchange",
+            "value": 43720
+          },
+          {
+            "field": "sharesheldpercentchange",
+            "value": 0.008524294825175915
+          },
+          {
+            "field": "marketvalue",
+            "value": 232456195
+          },
+          {
+            "field": "marketvaluechange",
+            "value": 1964776.8
+          },
+          {
+            "field": "portfoliopercent",
+            "value": 0.002564734946374816
+          },
+          {
+            "field": "sharesoutpercent",
+            "value": 0.01589015417405353
+          }
+        ]
+      }
+    ]
+  }
+}

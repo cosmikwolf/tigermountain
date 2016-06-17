@@ -1,0 +1,7 @@
+<h1>Companies</h1>
+
+{{#each model as |issue|}}
+  <p>{{#link-to "issues.issue" issue}}{{issue.companyname}}{{/link-to}}</p>
+{{/each}}
+
+{{outlet}}

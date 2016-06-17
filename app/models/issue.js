@@ -1,7 +1,42 @@
 import Model from 'ember-data/model';
-// import attr from 'ember-data/attr';
-// import { belongsTo, hasMany } from 'ember-data/relationships';
+import attr from 'ember-data/attr';
+import { belongsTo, hasMany } from 'ember-data/relationships';
 
 export default Model.extend({
-
-});
+  holdings:   hasMany('holdings', {async: true}),
+  querydate:  attr('string'),
+  companyid:  attr(),
+  companyname:  attr(),
+  issuetitle:   attr(),
+  isprimary:  attr(),
+  activeonly:   attr(),
+  ticker:   attr(),
+  exchangeid:   attr(),
+  exchange:   attr(),
+  cik:  attr(),
+  sic:  attr(),
+  sicdescription:   attr(),
+  industryid:   attr(),
+  industry:   attr(),
+  sectorid:   attr(),
+  sector:   attr(),
+  street1:  attr(),
+  street2:  attr(),
+  city:   attr(),
+  state:  attr(),
+  zip:  attr(),
+  country:  attr(),
+  phonecountrycode:   attr(),
+  phoneareacode:  attr(),
+  phonenumber:  attr(),
+  sharesout:  attr(),
+  sharesoutdate:  attr(),
+  price:  attr(),
+  pricedate:  attr(),
+  sharesheld:   attr(),
+  numholders:   attr(),
+  numbernewholders:   attr(),
+  numbuyers:  attr(),
+  numsellers:   attr(),
+  numbersellouts:   attr(),
+})
