@@ -12,7 +12,6 @@ Router.map(function() {
     this.route('issue', {path: '/:issue_id'});
   });
 
-  this.route('holdings');
 });
 
 export default Router;

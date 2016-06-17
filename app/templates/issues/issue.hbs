@@ -4,13 +4,15 @@
   <tr><td>issuetitle</td><td>{{model.issuetitle}}</td></tr>
   <tr><td>price</td><td>{{model.price}}</td></tr>
   <tr><td>sharesheld</td><td>{{model.sharesheld}}</td></tr>
-  <tr><td colspan=2><h3>Holdings</h3></td></tr>
-
+</table>
+<h3>Top 10 Holdings</h3>
+<table>
+  <tr><td><h4>Owner</h4></td><td><h4>Shares Held</h4></td></tr>
   {{#each model.holdings as |holding|}}
-  <tr><td>{{holding.companyname}}</td><td>{{holding.shares}}</td></tr>
+  <tr><td>{{holding.ownername}}</td><td>{{holding.sharesheld}}</td></tr>
   {{/each}}
+</table>
 <!--
-
   <tr><td>companyid</td><td>{{model.companyid}}</td></tr>
   <tr><td>querydate</td><td>{{model.querydate}}</td></tr>
   <tr><td>companyname</td><td>{{model.companyname}}</td></tr>
@@ -43,4 +45,3 @@
   <tr><td>numsellers</td><td>{{model.numsellers}}</td></tr>
   <tr><td>numbersellouts</td><td>{{model.numbersellouts}}</td></tr>
 -->
-</table>

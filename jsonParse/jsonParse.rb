@@ -15,11 +15,18 @@ Dir.glob("../data/*.json") do |my_text_file|
     puts "\t\tid: " + j.to_s + ','
     j = j+1
     for x in 0..23
-      print "\t\t" + data_hash['result']['rows'][i]['values'][x]['field'] + ":\t"
-      if data_hash['result']['rows'][i]['values'][x]['value'].is_a?String or data_hash['result']['rows'][i]['values'][x]['value'].nil?
-        puts '"' + data_hash['result']['rows'][i]['values'][x]['value'].to_s + '",'
+      field = data_hash['result']['rows'][i]['values'][x]['field']
+      value = data_hash['result']['rows'][i]['values'][x]['value']
+
+      if field == "issueid" then
+        field = 'issueId'
+      end
+      print "\t\t" + field + ":\t"
+      if value.is_a?String then value.delete! '\\' end
+      if value.is_a?String or value.nil?
+        puts '"' + value.to_s + '",'
       else
-        puts data_hash['result']['rows'][i]['values'][x]['value'].to_s + ","
+        puts value.to_s + ","
       end
     end
     print "\t},"

@@ -1,7 +1,6 @@
 export default [
   {
     id:                    472683,
-    holdingIds:              [],
     type:                  'issue',
     querydate:             '6/16/2016 5:49 PM',
     companyid:             2035,
@@ -44,7 +43,6 @@ export default [
     querydate:      '6/16/2016 5:59 PM',
     companyid:      8528,
     companyname:      'MICROSOFT CORP',
-    holdingIds:              [],
     issuetitle:     'COM',
     isprimary:      true,
     activeonly:     false,
@@ -83,7 +81,6 @@ export default [
     querydate:      '6/16/2016 5:59 PM',
     companyid:      976409,
     companyname:      'ALPHABET INC',
-    holdingIds:              [],
     issuetitle:     'CAP STK CL A',
     isprimary:      true,
     activeonly:     false,
