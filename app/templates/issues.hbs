@@ -1,7 +1,8 @@
 <h1>Companies</h1>
+<div id="holding" style="overflow-y:scroll; height:300px;">
 
 {{#each model as |issue|}}
   <p>{{#link-to "issues.issue" issue}}{{issue.companyname}}{{/link-to}}</p>
 {{/each}}
-
+</div>
 {{outlet}}
