@@ -3,7 +3,7 @@ import Ember from 'ember';
 
 export default JSONAPIAdapter.extend({
 
-  namespace: '/',
+  ///namespace: '/',
   host: 'https://tiger-mountain-api.herokuapp.com',
 
   pathForType: function(type) {
