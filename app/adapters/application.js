@@ -3,7 +3,7 @@ import Ember from 'ember';
 
 export default JSONAPIAdapter.extend({
 
-  host: 'https://tiger-mountain-api.herokuapp.com'
+  host: 'https://tiger-mountain-api.herokuapp.com';
 
   pathForType: function(type) {
     return Ember.String.pluralize(Ember.String.underscore(type));
