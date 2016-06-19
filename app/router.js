@@ -7,10 +7,13 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('index');
-  this.route('holdings');
-  this.route('issues', {path: 'companies'}, function(){
-    this.route('issue', {path: '/:issue_id'});
+
+  this.route('issues', {path: '/'}, function(){
+    this.route('holdings', {path: '/:issue_id'}, function(){
+      this.route('owner', {path: '/:holding_id'});
+    });
   });
+  this.route('owner');
 
 });
 

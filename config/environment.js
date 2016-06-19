@@ -28,7 +28,7 @@ module.exports = function(environment) {
     ENV['ember-cli-mirage'] = {
       enabled: false
     }
-
+    ENV.api_host = 'http://localhost:3000'
 
   }
 
@@ -48,6 +48,8 @@ module.exports = function(environment) {
     ENV['ember-cli-mirage'] = {
       enabled: false
     }
+
+    ENV.api_host = 'https://tiger-mountain-api.herokuapp.com'
 
   }
 

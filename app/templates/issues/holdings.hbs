@@ -7,11 +7,15 @@
 </table>
 <h3>Top 10 Holdings</h3>
 <table>
-  <tr><td><h4>Owner</h4></td><td><h4>Shares Held</h4></td></tr>
+  <tr><td><h4>Owner</h4></td><td><h4>Shares Out Percent</h4></td></tr>
   {{#each model.holdings as |holding|}}
-  <tr><td>{{holding.ownername}}</td><td>{{holding.sharesheld}}</td></tr>
+    <tr><td>  {{#link-to 'issues.holdings.owner' holding.owner}}
+{{holding.ownername}}  {{/link-to}}
+</td><td>{{percentage holding.sharesoutpercent decimals=3}}</td></tr>
   {{/each}}
 </table>
+
+{{outlet}}
 <!--
   <tr><td>companyid</td><td>{{model.companyid}}</td></tr>
   <tr><td>querydate</td><td>{{model.querydate}}</td></tr>

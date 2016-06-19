@@ -1,0 +1,25 @@
+<h3>{{model.ownername}}</h3>
+<table>
+<tr><td>portfoliovalue</td><td>{{model.portfoliovalue}}</td></tr>
+<tr><td>ownername</td><td>{{model.ownername}}</td></tr>
+<tr><td>city</td><td>{{model.city}}</td></tr>
+<tr><td>state</td><td>{{model.state}}</td></tr>
+<tr><td>zip</td><td>{{model.zip}}</td></tr>
+<tr><td>phone</td><td>{{model.phone}}</td></tr>
+<tr><td>dcn</td><td>{{model.dcn}}</td></tr>
+<tr><td>newpositions</td><td>{{model.newpositions}}</td></tr>
+<tr><td>increasedpositions</td><td>{{model.increasedpositions}}</td></tr>
+<tr><td>decreasedpositions</td><td>{{model.decreasedpositions}}</td></tr>
+<tr><td>soldoutpositions</td><td>{{model.soldoutpositions}}</td></tr>
+<tr><td>filerid</td><td>{{model.filerid}}</td></tr>
+<tr><td>issuesheld</td><td>{{model.issuesheld}}</td></tr>
+<tr><td>cik</td><td>{{model.cik}}</td></tr>
+</table>
+
+<h4>Holdings of {{model.ownername}}</h4>
+<table>
+  <tr><td>Ticker</td><td>companyname</td><td>SharesHeld</td><td>SharesOutPercent</td></tr>
+{{#each model.holdings as |holding|}}
+  <tr><td>{{holding.ticker}}</td><td>{{holding.companyname}}</td><td>{{holding.sharesheld}}</td><td>{{percentage holding.sharesoutpercent decimal=2}}</td></tr>
+{{/each}}
+</table>
