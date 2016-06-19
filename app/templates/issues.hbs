@@ -1,5 +1,5 @@
-<h1>Companies</h1>
-<div id="holding" style="overflow-y:scroll; height:300px;">
+<h2>Companies</h2>
+<div id="holding" style="column-count:3; column-width: 33%;overflow-y:scroll; height:300px;">
 
 {{#each model as |issue|}}
   <p>{{#link-to "issues.holdings" issue}}{{issue.companyname}}{{/link-to}}</p>
