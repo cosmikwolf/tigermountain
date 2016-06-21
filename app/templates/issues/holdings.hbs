@@ -1,12 +1,12 @@
 <h1>{{model.companyname}}</h1>
-<table>
+<table class="table table-hover">
   <tr><td>ticker</td><td>{{model.ticker}}</td></tr>
   <tr><td>issuetitle</td><td>{{model.issuetitle}}</td></tr>
   <tr><td>price</td><td>{{model.price}}</td></tr>
   <tr><td>sharesheld</td><td>{{model.sharesheld}}</td></tr>
 </table>
 <h3>Top 10 Holdings</h3>
-<table>
+<table class="table table-condensed ">
   <tr><td><h4>Owner</h4></td><td><h4>Shares Out Percent</h4></td></tr>
   {{#each model.holdings as |holding|}}
     <tr><td>  {{#link-to 'issues.holdings.owner' holding.owner}}
