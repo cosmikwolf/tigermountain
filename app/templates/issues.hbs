@@ -1,8 +1,21 @@
 <h2>Companies</h2>
-<div id="holding" style="column-count:3; column-width: 33%;overflow-y:scroll; height:300px;">
+<div id="holding" >
 
+{{#power-select
+    options=model
+    searchField="companyname"
+    placeholder="Enter a ticker or company name"
+    onchange=(action "selectIssue")
+    selected=selected_issue
+    as |company|}}
+  {{company.companyname}}
+{{/power-select}}
+
+<!--
 {{#each model as |issue|}}
   <p>{{#link-to "issues.holdings" issue}}{{issue.companyname}}{{/link-to}}</p>
 {{/each}}
+-->
 </div>
+
 {{outlet}}
