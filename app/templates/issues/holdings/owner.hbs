@@ -18,8 +18,8 @@
 
 <h4>Holdings of {{model.ownername}}</h4>
 <table>
-  <tr><td>Ticker</td><td>companyname</td><td>SharesHeld</td><td>SharesOutPercent</td></tr>
+  <tr><td>Ticker</td><td>companyname</td><td>SharesHeld</td><td>SharesOutPercent</td><td>PortfolioPercent</td></tr>
 {{#each model.holdings as |holding|}}
-  <tr><td>{{holding.ticker}}</td><td>{{holding.companyname}}</td><td>{{holding.sharesheld}}</td><td>{{percentage holding.sharesoutpercent decimal=2}}</td></tr>
+  <tr><td>{{holding.ticker}}</td><td>{{holding.companyname}}</td><td>{{holding.sharesheld}}</td><td>{{percentage holding.sharesoutpercent decimals=2}}</td><td>{{percentage holding.portfoliopercent decimals=4}}</td></tr>
 {{/each}}
 </table>
