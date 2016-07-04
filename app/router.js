@@ -10,7 +10,7 @@ Router.map(function() {
 
   this.route('issues', {path: '/'}, function(){
     this.route('holdings', {path: '/:issue_id'}, function(){
-      this.route('owner', {path: '/:holding_id'});
+      this.route('owner', {path: '/:owner_id'});
     });
   });
   this.route('owner');
@@ -18,3 +18,15 @@ Router.map(function() {
 });
 
 export default Router;
+
+
+/*
+Route:   Display
+/     :  List of issues
+/1    : Issue name and list of owners
+/1/2  : Issue name, list of owners and top holdings of selected ownername
+
+
+/issue/owner
+
+*/
